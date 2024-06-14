@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import add
+import { Add } from "./components/Add";
 //import home
 // import edit
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,10 +12,10 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 {/* Home */}
-                {/* Add */}
+                <Add />
                 {/* Edit */}
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter >
     )
 }
 
